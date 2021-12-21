@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons,
+.table,
+.chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table table,
+td,
+th {
+  border-collapse: collapse;
+  padding: 10px;
+  border: none;
+  text-align: center;
+}
+
+.table table {
+  border: 1px solid #cccccc;
+}
+
+button {
+  margin: 0 10px;
+  width: 50px;
+  border-radius: 10%;
+  height: 30px;
+}
+
+.vaccinated {
+  color: #00b300;
+}
+.pending {
+  color: #ff6666;
+}
